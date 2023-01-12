@@ -1,8 +1,7 @@
+version: "2.1"
 services:
-    ubuntu:
-        public: true
-        container_name: tzchz
-        image: consol/ubuntu-xfce-vnc:latest
+  ubuntu:
+        image: saviorsman/ubuntu-novnc:latest
         ports:
             - 6080:6080
         environment: 
